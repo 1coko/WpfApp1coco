@@ -1,0 +1,27 @@
+﻿<Page x:Class="GestionContacts.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GestionContacts"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page d'inscription">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="133" Margin="50,97,0,0" VerticalAlignment="Top" Width="133" Source="/image Diplome.png"/>
+        <Label Content="Inscription à une cession" HorizontalAlignment="Left" Margin="310,34,0,0" VerticalAlignment="Top" Height="38" Width="264" FontSize="22" FontWeight="Bold"/>
+        <Label Content="TOP" HorizontalAlignment="Left" Margin="84,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24" Width="56"/>
+        <Label Content="FORMATION" HorizontalAlignment="Left" Margin="45,51,0,0" VerticalAlignment="Top" Height="41" Width="158" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Margin="242,110,0,0" VerticalAlignment="Top" Height="26" Width="61" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Prénom" HorizontalAlignment="Left" Margin="242,157,0,0" VerticalAlignment="Top" Height="26" Width="73" FontSize="16" FontWeight="Bold"/>
+        <Label Content="N° Téléphone" HorizontalAlignment="Left" Margin="242,203,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtRechercher" HorizontalAlignment="Left" Margin="614,31,0,0" TextWrapping="Wrap" Text="Rechercher" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNomInscription" HorizontalAlignment="Left" Margin="383,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237" Height="21"/>
+        <TextBox x:Name="txtPrenomInscription" HorizontalAlignment="Left" Margin="383,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237" Height="21"/>
+        <TextBox x:Name="txtTelInscription" HorizontalAlignment="Left" Margin="383,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237" Height="22"/>
+        <Button x:Name="btnInscription" Content="S'inscrire" HorizontalAlignment="Left" Margin="533,257,0,0" VerticalAlignment="Top" Height="25" Width="87" Click="btnInscription_Click"/>
+        <TextBox x:Name="txtlisteInscrit" HorizontalAlignment="Left" Margin="242,328,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="378" Height="93" IsReadOnly="True"/>
+
+    </Grid>
+</Page>
